@@ -5,9 +5,9 @@ for car in cars:
     else:
         print(car.title())
 car = "Audi"
-if car == "audi":
+if car == "audi":  # python is case-sensitive
     print("true")
 else:
     print("false")
-if car.lower() == "audi":
+if car.lower() == "audi":  # it is now case-insensitive
     print("true")
