@@ -11,3 +11,7 @@ if 'pears' in favorite_fruits:
 if 'tangerine' in favorite_fruits:
     print("You really like tangerines")
 
+# Alternative for loop to print all
+for fruit in favorite_fruits:
+    if fruit in favorite_fruits:
+        print(f"You really like {fruit}s")

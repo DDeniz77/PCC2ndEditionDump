@@ -1,6 +1,6 @@
 # 5-9. No Users:
 names = []
-if names == []:  # you can use "if not names" instead.
+if not names:  # you can use names == [] instead
     print("We need to find some users!")
 for name in names:
     if name == "admin":

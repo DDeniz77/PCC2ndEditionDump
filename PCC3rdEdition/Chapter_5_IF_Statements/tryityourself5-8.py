@@ -1,7 +1,7 @@
 # 5-8. Hello Admin:
-names = ["levent", "fikret", "ozan", "yunus", "admin"]
+names = ['ahmet', 'mehmet', 'ceren', 'eren', 'admin']
 for name in names:
-    if name == "admin":
-        print(f"Hello {name.title()}, would you like to see the status report?")
+    if name == 'admin':
+        print (f"{name.title()}-sama we were expecting you.")
     else:
-        print(f"Hello {name.title()}, thank you for logging in again.")
+        print(f"Get out of here {name} you are not wanted here!")

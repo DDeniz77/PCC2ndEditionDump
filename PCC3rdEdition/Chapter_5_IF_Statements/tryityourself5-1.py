@@ -1,19 +1,18 @@
 # 5-1. Conditional Tests
 car = 'subaru'
-print("Is car == 'subaru'?, I predict True.")
+print(f"Is your car a Subaru?, I predict True.")
 print(car == 'subaru')
 
-print("\nIs car == 'audi'? I predict False.")
+print("\nIs your car an Audi? I predict False.")
 print(car == 'audi')
 print(car == 'toyota')
 
 fav_food = 'pizza'
 print("Is your favorite food pizza?")
-print(fav_food == 'pizza')
 if fav_food == 'pizza':
-    print(f"Yes {fav_food} is my favorite")
+    print(f"Yes {fav_food} is my favorite\n")
 else:
-    print("Nope, pizza is not my favorite")
+    print(f"Nope, pizza is not my favorite, it is {fav_food}\n")
 
 guess_fav_food = 'meatloaf'
 print(f"Is your favorite food {guess_fav_food}?")

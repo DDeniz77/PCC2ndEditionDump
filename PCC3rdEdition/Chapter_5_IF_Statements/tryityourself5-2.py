@@ -5,8 +5,12 @@ if expected == name:
     print("The names are equal.")
 else:
     print("The names are not equal.")
-if expected == name.lower():
+
+if expected == name.lower() or name.upper() or name.title():
     print("They are the same name with case difference.")
+else:
+    print("They are completely different")
+
 number = 5
 mynumber = 9
 if number == mynumber:
@@ -33,5 +37,7 @@ else:
 my_list = ["hi", "hello", "darkness"]
 if "darkness" in my_list:
     print("darkness is part of the list")
+if "pizzeria" and "hello" not in my_list:
+    print("pizzeria is not a part of the list")
 if "pizzeria" not in my_list:
     print("pizzeria is not a part of the list")
