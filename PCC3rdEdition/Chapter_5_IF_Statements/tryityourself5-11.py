@@ -1,5 +1,13 @@
 # 5-11. Ordinal Numbers:
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+numbers = []
+i = 0
+while i < 9:
+    i = i + 1
+    numbers.append(i)
+    if i == 0:
+        break
+print(numbers)
+print(i)
 for number in numbers:
     if number == 1:
         print(f"{number}st")
@@ -9,7 +17,5 @@ for number in numbers:
         print(f"{number}rd")
     else:
         print(str(number)+"th")
-
 #   else:
 #       print(f"{number}th")
-# this was my initial answer.
