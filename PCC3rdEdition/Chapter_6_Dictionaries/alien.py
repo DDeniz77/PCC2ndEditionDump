@@ -1,14 +1,15 @@
 alien_0 = {'color': 'green', 'points': 5}
 print(alien_0['color'])
 print(alien_0['points'])
-# alien_0 = {'color': 'blue'}
-# print(alien_0['color'])
+#  alien_0 = {'color': 'blue'}
+#  print(alien_0['color'])
 new_points = alien_0['points']
 print(f"You just earned {new_points} points!")
 # Once the dictionary has been defined, the code at line 6 pulls the value
 # associated with the key 'points' from the dictionary. This value is then
 # assigned to the variable new_points. The line at 7 prints a statement about
 # how many points the player just earned
+
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
 print(alien_0)
